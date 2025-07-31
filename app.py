@@ -88,7 +88,6 @@ def slow_endpoint():
         result = response.json()
     except Exception as e:
         result = {"error": str(e)}
-
     return result
 
 @app.route('/logout')
