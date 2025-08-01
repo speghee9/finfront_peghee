@@ -10,17 +10,17 @@ pool:
 
 variables:
   - name: projectName
-    value: '<<<YOUR AZURE DEVOPS PROJECT>>>'            # <-- Update this
+    value: 'AZURE PEGHEE DEVOPS PROJECT'            # <-- Update this
   - name: buildPipelineName
-    value: '<<<YOUR BUID PIPELINE>>>'          # <-- Update this
+    value: 'PEGHEE BUID PIPELINE'          # <-- Update this
   - name: artifactName
     value: 'frontend'        
   - name: targetFile
     value: 'app.py'                             # Optional: Which file inside artifact to display
   - name: resourceGroup
-    value: '<<<YOUR RESSOURCE GROUP>>>'        # <-- Update this
+    value: 'Training-Student-012-OC006'        # <-- Update this
   - name: webAppName
-    value: '<<<YOUR WEB APP>>>'                # <-- Update this Azure Web App target
+    value: 'finfront_peghee'                # <-- Update this Azure Web App target
 
 steps:
 - script: |
